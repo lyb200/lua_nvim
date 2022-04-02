@@ -2,7 +2,7 @@
 
 ## 为什么是 lua？
 
-Neovim 内嵌了 lua 5.1 运行时，用于创建你喜欢的编辑器更快和更强大的扩展。在 [Neovim 章节](https://neovim.io/charter/) 中，它列出了其目标之一是开发替代 VimL 的一流 lua 脚本。这样做的原因之一是 VimL 是较慢的解释性语言，几乎没有优化。大部分时间花费在 vim 启动和会阻止编辑器主循环的用于解析和执行 vimscript 的插件动作中。这在 Neovim 主要维护者 Justin M.Keyes 的演讲中可以找到很好的解释，[我们可以拥有美好的东西](https://www.youtube.com/watch?v=Bt-vmPC_-Ho)。
+Neovim 内嵌了 lua 5.1 运行时，用于创建你喜欢的编辑器更快和更强大的扩展。在 [Neovim 章节](https://neovim.io/charter/) 中，它列出了其目标之一是开发替代 VimL 的第一类 lua 脚本。这样做的原因之一是 VimL 是较慢的解释性语言，几乎没有优化。大部分时间花费在 vim 启动和会阻止编辑器主循环的用于解析和执行 vimscript 的插件动作中。这在 Neovim 主要维护者 Justin M.Keyes 的演讲中可以找到很好的解释，[我们可以拥有美好的东西](https://www.youtube.com/watch?v=Bt-vmPC_-Ho)。
 
 随着最近在使用 lua 编写的主分支中引入内置的 LSP 客户端，我对 lua 所提供的可用性更感兴趣，并开始尝试在 Neovim 中使用 lua。我以前从来没有编写过 lua 代码，也没有看过很多关于如何在 Neovim 中利用 lua 运行时的使用指南，所以我想告知我是如何利用 Neovim 运行时提供的强大脚本功能的过程。鉴于我的经验还很基础，且提供的这些例子也很少，但我希望对于那些有兴趣使用 lua 扩展 Neovim 的人来说，这可以成为一个很好的起点。
 
