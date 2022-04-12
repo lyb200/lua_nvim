@@ -2,7 +2,7 @@
 
 Neovim 的开发人员给他们自己设定的目标之一是：使 lua 成为替代 vimL 的头等脚本语言。从版本 0.4 开始，其解释器和 'stdlib'(标准库) 就一起已经内置在编辑器中了。lua 非常容易学习，运行速度很快，广泛用于游戏开发社区中。在我看来，它的学习曲线也比 vimL 低得多，这可能会鼓励新人开始他们扩展 neovim 能力的旅程，或者只是为了一次性的目标制作简单的脚本。那么，让我们来尝试一下吧？我们编写一个简单的插件来显示我们最近使用过的文件。我们应该如何命名呢？也许...“我们已经编辑了什么 (What have I done，即缩写 whid)？！”。它看起来像这样：
 
-![git](whid.gif)
+![git](https://res.cloudinary.com/practicaldev/image/fetch/s--WWYGbh0u--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://2n.pl/system/blog_posts/photos/000/000/131/original/whid.png)
 
 ## 插件目录结构
 
