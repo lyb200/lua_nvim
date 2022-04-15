@@ -3,7 +3,6 @@
 在上一篇 [文章](https://github.com/lyb200/lua_nvim/blob/main/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%20lua%20%E7%BC%96%E5%86%99%20neovim%20%E6%8F%92%E4%BB%B6.md) 中，我们学习了在 lua 中使用浮动窗口创建插件的基本知识。现在是时候采用更传统的方法了。让我们创建一个简单的插件，在方便的侧导航区显示最近打开过的文件。由于我们专注于学习该界面，因此我们将使用 vim 本地的打开过的文件列表(oldfiles)来实现这个目标。它看起来像这样：
 
 ![oldfiles.gif](https://github.com/lyb200/lua_nvim/blob/main/oldfiles.gif)
-![oldfiles.gif](oldfiles.gif)
 
 如果你没有阅读过上一篇 [文章](https://github.com/lyb200/lua_nvim/blob/main/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%20lua%20%E7%BC%96%E5%86%99%20neovim%20%E6%8F%92%E4%BB%B6.md) ，我强烈建议你去读一下，因为这篇文章是在上一篇文件的基础上进行了扩展，并在相互比较中充满了新的知识。
 
