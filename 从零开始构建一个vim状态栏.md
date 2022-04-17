@@ -59,7 +59,7 @@ set statusline=
 set statusline+=\ %{toupper(g:currentmode[mode()])}
 ```
 
-状态栏就会根据目前处于何种模式自动改变状态栏模式提示。
+状态栏就会根据目前处于何种模式自动改变状态栏中的模式提示。
 
 想要在当前文件修改后显示已修改符号 `[+]` ，我们可以使用以下设置：
 
@@ -79,7 +79,7 @@ set statusline+=%-7([%{&fileformat}]%)
 
 ## 使用高亮组
 
-想要知道如何设置状态栏中的不同部分如何显示不同的颜色？很简单：使用高亮组。
+想要知道如何设置状态栏中的不同部分显示不同的颜色？很简单：使用高亮组。
 
 使用高亮显示有两种略有不同的方式。
 
@@ -143,7 +143,7 @@ set statusline+=%2p%%
 
 作者 ：jdhao <br>
 最后修改：2021-12-12 <br>
-许可 ：[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)<br>
+许可 ：[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)<br>
 
 ---
 
