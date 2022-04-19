@@ -236,7 +236,7 @@ local stl = {
 vim.o.statusline = table.concat(stl)
 ```
 
-图示如下：
+图示如下：<br>
 ![statusline.png](https://github.com/lyb200/lua_nvim/blob/main/pic/statusline.png)
 
 ## 这就是当 tpope 的感觉
